@@ -1,0 +1,41 @@
+<linker>
+	<assembly fullname="System" preserve="all"/>
+  <assembly fullname="mscorlib">
+    <type fullname="System" preserve="all"/>
+    <type fullname="System.Action" preserve="all"/> 
+		<type fullname="System.Collections" preserve="all"/> 
+    <type fullname="System.Collections.IList" preserve="all"/> 
+		<type fullname="System.Collections.Generic" preserve="all"/>
+		<type fullname="System.ComponentModel.StringConverter" preserve="all"/>
+		<type fullname="System.ComponentModel.TypeConverter" preserve="all" />
+		<type fullname="System.Threading" preserve="all"/>    
+		<type fullname="System.Text" preserve="all"/> 
+		<type fullname="System.Globalization" preserve="all"/>      
+		<type fullname="System.IO" preserve="all"/>
+		<type fullname="System.Buffer" preserve="all"/>    
+		<type fullname="System.Xml" preserve="all"/> 
+		<type fullname="System.Diagnostics" preserve="all"/>
+		<type fullname="System.Int32" preserve="all"/> 
+		<type fullname="System.UInt64" preserve="all"/> 
+		<type fullname="System.Reflection" preserve="all"/> 
+    <type fullname="System.Void" preserve="all"/> 
+		<type fullname="System.Linq" preserve="all"/> 
+		<type fullname="System.Action" preserve="all"/>
+	</assembly>
+  <!--<assembly fullname="UnityEngine" preserve="all"/> -->
+  <assembly fullname="UnityEngine" >
+    <type fullname="UnityEngine.SpriteRenderer" preserve="all" />
+    <type fullname="UnityEngine.CapsuleCollider" preserve="all" />
+    <type fullname="UnityEngine.Canvas" preserve="all" />
+    <type fullname="UnityEngine.GameObject" preserve="all" />
+    <type fullname="UnityEngine.AudioListener" preserve="all" />
+    <type fullname="UnityEngine.RectTransform" preserve="all" />
+    <type fullname="UnityEngine.TextMesh" preserve="all" />
+    <type fullname="UnityEngine.Camera" preserve="all" />
+    <type fullname="UnityEngine.GUIText" preserve="all" />
+    <type fullname="UnityEngine.BoxCollider" preserve="all" />
+    <type fullname="UnityEngine.GameObject" preserve="all" />
+    <type fullname="UnityEngine.RenderTexture" preserve="all" />
+  </assembly>
+  
+</linker>
